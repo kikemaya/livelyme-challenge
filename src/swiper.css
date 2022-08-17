@@ -1,0 +1,27 @@
+/* slide styles */
+/* i know i use "important" but i'm searching why i have to do this in the first place, Jesus */
+.swiper-wrapper {
+  position: relative;
+}
+.swiper-pagination {
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: space-between!important;
+  gap: 20px!important;
+  margin-right: 30px!important;
+}
+.swiper-pagination-bullet {
+  height: 15px;
+  width: 15px;
+  background-color: #148a81;
+}
+
+@media only screen and (max-width: 1024px) {
+  .swiper-pagination {
+    display: inline-flex!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+    align-items: flex-end!important;
+    bottom: 60px!important;
+  }
+}
