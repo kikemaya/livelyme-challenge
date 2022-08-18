@@ -1,3 +1,10 @@
+import {
+  FiLayers,
+  FiHeart,
+  FiMousePointer,
+  FiUserCheck,
+} from 'react-icons/fi';
+
 export const navBusiness = {
   left: [
     { name: 'brokers', href: 'https://livelyme.com/brokers/' },
@@ -42,5 +49,32 @@ export const slideData = [
     id: 7,
     title: 'Lorem ipsum dolor sit, amet consec',
     small_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure hic in illo architecto inventore illum iste unde obcaecati.'
+  },
+];
+
+export const services = [
+  {
+    icon: <FiLayers />,
+    name: 'Third-Party Administrators',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+  {
+    icon: <FiHeart />,
+    name: 'Health Plans',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+  {
+    icon: <FiMousePointer />,
+    name: 'Benefit Administration Platforms',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+  {
+    icon: <FiUserCheck />,
+    name: 'Unparalleled support',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
 ];

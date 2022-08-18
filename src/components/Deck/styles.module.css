@@ -21,7 +21,7 @@
 
 .deck > div {
   touch-action: none;
-  background-color: white;
+  background-color: #18a196;
   background-size: auto 85%;
   background-repeat: no-repeat;
   background-position: center center;

@@ -6,6 +6,7 @@ import BackTopBtn from './components/BackTopBtn';
 import Slider from './components/Slider';
 import Footer from './components/Footer';
 import MenuChoice from './components/MenuChoice';
+import Services from './components/Services';
 
 const App = () => {
   const [menu, setMenu] = useState('business')
@@ -15,6 +16,7 @@ const App = () => {
       <MenuChoice menu={menu} setMenu={setMenu} />
       <Header menu={menu} setMenu={setMenu} />
       <Slider />
+      <Services />
       <Footer />
       <BackTopBtn />
     </div>
